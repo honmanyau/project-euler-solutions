@@ -1,6 +1,6 @@
-/**************/
-/* Problem 2: */
-/**************/
+/*************/
+/* Problem 2 */
+/*************/
 
 function sumOfEvenFibonacciTerms(limit, i = 0, j = 1, sum = 0) {
   const nextTerm = i + j;

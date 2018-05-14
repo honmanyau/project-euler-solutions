@@ -1,6 +1,6 @@
-/**************/
-/* Problem 1: */
-/**************/
+/*************/
+/* Problem 1 */
+/*************/
 
 function sumOfMultiples(n, limit) {
   let sum = 0;

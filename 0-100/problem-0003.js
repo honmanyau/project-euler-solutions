@@ -1,6 +1,6 @@
-/**************/
-/* Problem 3: */
-/**************/
+/*************/
+/* Problem 3 */
+/*************/
 
 const fs = require('fs');
 const primesUpTo775146 = JSON.parse(fs.readFileSync(
