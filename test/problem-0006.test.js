@@ -6,7 +6,7 @@ describe('Problem 6 functions:', () => {
     const { sumOfSquares } = functions;
 
     it([
-      `should return 385 if min = 1 and max = 10`
+      `should return 385 if min = 1 and max = 10.`
     ].join(''), () => {
       assert.equal(sumOfSquares(1, 10), 385);
     });
@@ -16,7 +16,7 @@ describe('Problem 6 functions:', () => {
     const { squareOfSum } = functions;
 
     it([
-      `should return 3025 if min = 1 and max = 10`
+      `should return 3025 if min = 1 and max = 10.`
     ].join(''), () => {
       assert.equal(squareOfSum(1, 10), 3025);
     });
@@ -26,7 +26,7 @@ describe('Problem 6 functions:', () => {
     const { sumSquareDifference } = functions;
 
     it([
-      `should return 2640 if min = 1 and max = 10`
+      `should return 2640 if min = 1 and max = 10.`
     ].join(''), () => {
       assert.equal(sumSquareDifference(1, 10), 2640);
     });
