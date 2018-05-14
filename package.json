@@ -1,0 +1,27 @@
+{
+  "name": "project-euler-solutions",
+  "version": "1.0.0",
+  "description": "Solution to Project Euler Problems",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honmanyau/project-euler-solutions.git"
+  },
+  "keywords": [
+    "project",
+    "euler"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honmanyau/project-euler-solutions/issues"
+  },
+  "homepage": "https://github.com/honmanyau/project-euler-solutions#readme"
+}
