@@ -9,7 +9,17 @@ function generateNthPrimes(n) {
   while (primes.length < n) {
     m += 1;
 
-    const mIsPrime = primes.reduce((acc, p) => acc && m % p !==0, true);
+    let mIsPrime = true;
+
+    for (let i = 0, l = primes.length; i < l; i++) {
+      const prime = primes[i];
+
+      if (Math.sqrt(m) < prime) {
+        break;
+      }
+
+      mIsPrime = mIsPrime && m % prime !== 0;
+    }
 
     if (mIsPrime) {
       primes.push(m);
