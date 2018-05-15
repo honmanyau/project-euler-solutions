@@ -2,8 +2,6 @@
 /* Problem 9 */
 /*************/
 
-const fs = require('fs');
-
 // Conditions given:
 // 1. a < b < c
 // 2. a^2 + b^2 = c^2
