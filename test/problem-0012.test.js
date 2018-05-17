@@ -28,7 +28,7 @@ describe('Problem 12 functions:', () => {
     it([
       `should return 6 for n = 4`
     ].join(''), () => {
-      assert.equal(findFirstTriangleNumberWithNumberOfFactors(4), 6);
+      assert.equal(findFirstTriangleNumberWithNumberOfFactors(4), 28);
     });
   });
 });

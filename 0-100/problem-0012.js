@@ -48,7 +48,6 @@ function findFirstTriangleNumberWithNumberOfFactors(n) {
   for (let i = 1; factors.length <= n; i++) {
     triangularNumber = generateNthTriangularNumber(i);
     factors = findAllFactorsOf(triangularNumber);
-    console.log(i, triangularNumber, factors.length);
   }
 
   return triangularNumber;
