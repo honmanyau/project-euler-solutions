@@ -1,6 +1,6 @@
-/*************/
+/**************/
 /* Problem 11 */
-/*************/
+/**************/
 
 const fs = require('fs');
 const input = fs.readFileSync(
