@@ -1,5 +1,5 @@
 /**************/
-/* Problem 14 */
+/* Problem 15 */
 /**************/
 
 // Brute-force, takes too long to calculate for size = 20
